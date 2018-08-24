@@ -1,0 +1,203 @@
+/* ! ! !    R E A D   T H I S    ! ! !
+
+It's recomended to create a custom.css or custom.scss file (or place your custom styles at the bottom of app.css) to do your customizations in order to easily update the app.css files without loosing your changes.
+*/
+
+
+// Uncomment custom.css at the bottom of this file if you're using a custom.css file.
+
+/*------------------------------------------------------------------------------
+
+        1.	GLOBAL
+        2.	TYPOGRAPHY
+        3.	UTILITIES
+        4. THEME APP LANDING
+        5. THEME SHOP
+        6. THEME RESTAURANT
+        7. THEME AGENCY
+        8. THEME BARBERSHOP
+        9. THEME GYM
+        10.	HEADER
+        11.	SECTIONS
+        12.	FOOTER
+        13. BLOG ELEMENTS
+        14.	CALL TO ACTION
+        15. CLIENTS
+        16.	COUNTDOWN
+        17.	COUNTERS
+        18.	CONTENT BOXES
+        19. SOCIAL ICONS
+        20. MAPS
+        21. PRICING TABLES
+        22. PRICE LISTS
+        23. PORTFOLIO ELEMENTS
+        24. PROGRESS BARS
+        25. SHOP ELEMENTS
+        26. SIDEBAR
+        27. SVG ICONS
+        28. SPLIT SECTIONS
+        29. TEAM
+        30. TESTIMONIALS
+        31. VIDEO BOX
+        32. PAGE TITLE
+        33. LOGIN BOX
+        34. REVOLUTION SLIDER
+        35. FOUNDATION GRID
+        36. FOUNDATION RESPONSIVE EMBED
+        37. FOUNDATION VISIBILITY CLASSES
+        38. FOUNDATION FORMS
+        39. FOUNDATION ACCORDIONS
+        40. FOUNDATION BUTTONS
+        41. FOUNDATION TABS
+        42. FOUNDATION BREADCRUMBS
+        43. FOUNDATION PAGINATION
+        44. FOUNDATION MEDIA OBJECT
+
+------------------------------------------------------------------------------*/
+
+// Foundation Dependencies
+@import "../node_modules/foundation-sites/scss/foundation";
+
+// Sass utilities
+@import '../node_modules/foundation-sites/scss/util/util';
+
+// Helpers
+@import "../scss/helpers/_variables";
+@import "../scss/helpers/_mixins";
+@import "settings";
+
+// Base
+/* ===[ 1. GLOBAL ]=== */
+@import "../scss/base/_global";
+/* ===[ 2. TYPOGRAPHY ]=== */
+@import "../scss/base/_typography";
+/* ===[ 3. UTILITIES ]=== */
+@import "../scss/base/_utilities";
+
+
+// Themes
+/* ===[ 4. THEME APP LANDING ]=== */
+@import "../scss/themes/_theme_app_landing";
+/* ===[ 5. THEME SHOP ]=== */
+@import "../scss/themes/_theme_shop";
+/* ===[ 6. THEME RESTAURANT ]=== */
+@import "../scss/themes/_theme_restaurant";
+/* ===[ 7. THEME AGENCY ]=== */
+@import "../scss/themes/_theme_agency";
+/* ===[ 8. THEME BARBERSHOP]=== */
+@import "../scss/themes/_theme_barbershop";
+/* ===[ 9. THEME GYM ]=== */
+@import "../scss/themes/_theme_gym";
+
+
+// Components
+/* ===[ 10. HEADER ]=== */
+@import "../scss/components/_header";
+/* ===[ 11. SECTIONS ]=== */
+@import "../scss/components/_sections";
+/* ===[ 12. FOOTER ]=== */
+@import "../scss/components/_footer";
+/* ===[ 13. BLOG ELEMENTS ]=== */
+@import "../scss/components/_blog_elements";
+/* ===[ 14. CALL TO ACTION ]=== */
+@import "../scss/components/_call_to_action";
+/* ===[ 15. CLIENTS ]=== */
+@import "../scss/components/_clients";
+/* ===[ 16. COUNTDOWN ]=== */
+@import "../scss/components/_countdown";
+/* ===[ 17. COUNTERS ]=== */
+@import "../scss/components/_counters";
+/* ===[ 18. CONTENT BOXES ]=== */
+@import "../scss/components/_content_boxes";
+/* ===[ 19. SOCIAL ICONS ]=== */
+@import "../scss/components/_social_icons";
+/* ===[ 20. MAPS ]=== */
+@import "../scss/components/_maps";
+/* ===[ 21. PRICING TABLES ]=== */
+@import "../scss/components/_pricing_tables";
+/* ===[ 22. PRICE LISTS ]=== */
+@import "../scss/components/_price_lists";
+/* ===[ 23. PORTFOLIO ELEMENTS ]=== */
+@import "../scss/components/_portfolio_elements";
+/* ===[ 24. PROGRESS BARS ]=== */
+@import "../scss/components/_progressbars";
+/* ===[ 25. SHOP ELEMENTS ]=== */
+@import "../scss/components/_shop_elements";
+/* ===[ 26. SIDEBAR ]=== */
+@import "../scss/components/_sidebar";
+/* ===[ 27. SVG ICONS ]=== */
+@import "../scss/components/_svg_icons";
+/* ===[ 28. SPLIT SECTIONS ]=== */
+@import "../scss/components/_split_sections";
+/* ===[ 29. TEAM ]=== */
+@import "../scss/components/_team";
+/* ===[ 30. TESTIMONIALS ]=== */
+@import "../scss/components/_testimonials";
+/* ===[ 31. VIDEO BOX ]=== */
+@import "../scss/components/_video_box";
+/* ===[ 32. PAGE TITLE ]=== */
+@import "../scss/components/_pagetitle";
+/* ===[ 33. LOGIN BOX ]=== */
+@import "../scss/components/_login_box";
+/* ===[ 34. REVOLUTION SLIDER ]=== */
+@import "../scss/components/_revolution_slider";
+
+
+// Foundation Components
+// Uncomment the ones you wish to import into your project
+
+/* ===[ 35. FOUNDATION GRID ]=== */
+@import "../scss/components/_foundation-grid";
+/* ===[ 36. FOUNDATION RESPONSIVE EMBED ]=== */
+@import "../scss/components/_foundation-responsive-embed";
+/* ===[ 37. FOUNDATION VISIBILITY CLASSES ]=== */
+@import "../scss/components/_foundation-visibility-classes";
+/* ===[ 38. FOUNDATION FORMS ]=== */
+@import "../scss/components/_foundation-forms";
+/* ===[ 39. FOUNDATION ACCORDIONS ]=== */
+@import "../scss/components/_foundation-accordions";
+/* ===[ 40. FOUNDATION BUTTONS ]=== */
+@import "../scss/components/_foundation-buttons";
+/* ===[ 41. FOUNDATION TABS ]=== */
+@import "../scss/components/_foundation-tabs";
+/* ===[ 42. FOUNDATION BREADCRUMBS ]=== */
+@import "../scss/components/_foundation-breadcrumbs";
+/* ===[ 43. FOUNDATION PAGINATION ]=== */
+@import "../scss/components/_foundation-pagination";
+/* ===[ 44. FOUNDATION MEDIA OBJECT ]=== */
+@import "../scss/components/_foundation-media-object";
+
+// @import "../scss/components/_foundation-flex-grid";
+// @import "../scss/components/_foundation-xy-grid-classes";
+// @import "../scss/components/_foundation-range-input";
+// @import "../scss/components/_foundation-accordion-menu";
+// @import "../scss/components/_foundation-badge";
+// @import "../scss/components/_foundation-button-group";
+// @import "../scss/components/_foundation-callout";
+// @import "../scss/components/_foundation-card";
+// @import "../scss/components/_foundation-close-button";
+// @import "../scss/components/_foundation-menu";
+// @import "../scss/components/_foundation-menu-icon";
+// @import "../scss/components/_foundation-drilldown-menu";
+// @import "../scss/components/_foundation-dropdown";
+// @import "../scss/components/_foundation-dropdown-menu";
+// @import "../scss/components/_foundation-off-canvas";
+// @import "../scss/components/_foundation-orbit";
+// @import "../scss/components/_foundation-progress-bar";
+// @import "../scss/components/_foundation-progress-element";
+// @import "../scss/components/_foundation-meter-element";
+// @import "../scss/components/_foundation-slider";
+// @import "../scss/components/_foundation-sticky";
+// @import "../scss/components/_foundation-reveal";
+// @import "../scss/components/_foundation-switch";
+// @import "../scss/components/_foundation-table";
+// @import "../scss/components/_foundation-thumbnail";
+// @import "../scss/components/_foundation-title-bar";
+// @import "../scss/components/_foundation-tooltip";
+// @import "../scss/components/_foundation-top-bar";
+// @import "../scss/components/_foundation-flex-classes";
+// @import "../scss/components/_foundation-prototype";
+
+
+// Uncomment this if you're using a custom.css file
+// @import "custom";

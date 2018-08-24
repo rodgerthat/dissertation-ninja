@@ -1,0 +1,651 @@
+.icon-circle-box {
+    text-align: left;
+
+    h5 {
+        font-size: 2.0rem;
+        margin: 0;
+    }
+
+    &.boxed {
+        h5,
+        p {
+            color: $black;
+        }
+    }
+
+    .boxed i {
+        color: $purple;
+    }
+
+    .icon-circle {
+        font-size: 3.8rem;
+        display: inline-block;
+        margin: 0 0 2.8rem;
+        width: 9.0rem;
+        height: 9.0rem;
+        line-height: 9.5rem;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        color: $white;
+
+        .text-white {
+            box-shadow: 0 0 0 2px $white;
+        }
+
+        &.text-white {
+            &:after {
+                background: $white;
+            }
+
+            i {
+                color: $white !important;
+            }
+        }
+
+        &:after {
+            pointer-events: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            content: '';
+            box-sizing: content-box;
+        }
+
+        &:before {
+            font-family: 'lineicons';
+            speak: none;
+            font-size: 4.2rem;
+            line-height: 10.0rem;
+            display: block;
+        }
+    }
+
+    &:hover {
+        .icon-circle {
+            i {
+                color: $white;
+            }
+
+            &.text-black:after {
+                background: $black;
+            }
+
+            &:after {
+                transform: scale(0.85);
+                opacity: 1;
+                filter: alpha(opacity = 100);
+            }
+
+            &.text-white i {
+                color: $black !important;
+            }
+        }
+    }
+}
+
+.circle-effect {
+    .icon-circle {
+        color: $purple;
+        box-shadow: 0 0 0 2px $purple;
+        transition: color 0.3s;
+
+        &:after {
+            top: -2px;
+            left: -2px;
+            padding: 2px;
+            z-index: -1;
+            background: $purple;
+            opacity: 0;
+            filter: alpha(opacity = 0);
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        &.text-white {
+            box-shadow: 0 0 0 2px $white;
+
+            &:after {
+                background: $white;
+            }
+        }
+    }
+}
+
+.dark-bg {
+    .icon-circle-box {
+        i {
+            color: $purple;
+        }
+
+        &:hover .icon-circle i {
+            color: $white !important;
+        }
+    }
+    .contentbox-content a:before {
+        background: $white;
+    }
+}
+
+.icon-circle-box:hover .icon-circle,
+.light-bg .icon-circle-box:hover .icon-circle i {
+    color: $white;
+}
+
+.contentbox-content {
+    overflow: hidden;
+
+    h5 {
+        font-size: 2.0rem;
+        margin: 0;
+    }
+}
+
+.contentbox-style3 {
+    width: 100%;
+    text-align: left;
+}
+
+.boxed, .bordered {
+    padding: 4.0rem;
+}
+
+.boxed {
+    background: $light-gray2;
+}
+
+.bordered {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.light-bg .boxed {
+    background: $white !important;
+}
+
+.dark-bg,
+.image,
+.parallax {
+    .bordered {
+        border: 1px solid #e8e8e8;
+    }
+
+    .contentbox-style1.boxed i,
+    .contentbox-style2.boxed i,
+    .contentbox-style3.boxed i {
+        color: $purple;
+    }
+
+    .contentbox-style1.boxed {
+        .main h5,
+        h5,
+        p {
+            color: $black;
+        }
+    }
+
+    .contentbox-style2.boxed {
+        .main h5,
+        h5,
+        p {
+            color: $black;
+        }
+    }
+
+    .contentbox-style3.boxed {
+        .main h5,
+        h5,
+        p {
+            color: $black;
+        }
+    }
+
+    .boxed {
+        border: 1px solid rgba(0, 0, 0, 0.04);
+        background: $light-gray2 !important;
+
+        .icon-circle {
+            box-shadow: 0 0 0 2px $white;
+
+            &.text-black {
+                box-shadow: 0 0 0 2px $black;
+            }
+        }
+
+        .bordered .icon-circle,
+        .icon-circle {
+            box-shadow: 0 0 0 2px $purple;
+        }
+
+        .icon-circle-box:hover .icon-circle i {
+            color: $white !important;
+        }
+    }
+
+    &.icon-circle-box i {
+        color: $purple;
+    }
+
+    &:after {
+        background: $purple !important;
+    }
+
+    .boxed.icon-circle-box:hover .icon-circle.text-white i {
+        color: $black !important;
+    }
+
+    &.icon-circle-box:hover .icon-circle i {
+        color: $white !important;
+    }
+
+    &.sticked-boxes .columns:last-child .bordered {
+        border-right: 1px solid #e8e8e8;
+    }
+
+    ul.details-list li {
+        color: $white;
+    }
+}
+
+.boxed {
+    .line-drawing path {
+        stroke: $purple;
+    }
+
+    .icon-circle {
+        box-shadow: 0 0 0 2px $purple;
+
+        &.text-white {
+            box-shadow: 0 0 0 2px $white !important;
+
+            &:after {
+                background: $white !important;
+            }
+        }
+
+        &:after {
+            background: $white !important;
+            background: $purple !important;
+        }
+
+        &.text-black {
+            box-shadow: 0 0 0 2px $black;
+
+            i {
+                color: $black !important;
+            }
+
+            &:after {
+                background: $black !important;
+            }
+        }
+    }
+
+    &.icon-circle-box:hover .icon-circle.text-white i {
+        color: $black !important;
+    }
+
+    &.icon-circle-box:hover .icon-circle i {
+        color: $white !important;
+    }
+}
+
+.contained svg {
+    width: 55%;
+}
+
+.dark-bg .boxed .icon-circle {
+    box-shadow: 0 0 0 2px $purple;
+}
+
+.image .boxed.icon-circle-box:hover .icon-circle.text-black:after {
+    background: $black !important;
+}
+
+.image,
+.parallax {
+    .bordered .icon-circle,
+    .icon-circle i {
+        color: $purple;
+    }
+
+    .boxed .icon-circle {
+        box-shadow: 0 0 0 2px $purple;
+    }
+}
+
+.circle-effect {
+    .icon-circle.text-black {
+        box-shadow: 0 0 0 2px $black;
+
+        &:after {
+            background: $black;
+        }
+    }
+
+    .icon-circle.text-black i {
+        color: $black;
+    }
+}
+
+.image .icon-circle-box:hover .icon-circle.text-white i {
+    color: $black !important;
+}
+
+.contentbox-style2,
+.contentbox-style4 {
+    text-align: center;
+}
+
+.contentbox-style1 i {
+    font-size: 3.6rem;
+    color: $purple;
+    top: -0.6rem;
+    position: relative;
+}
+
+.contentbox-style2 i {
+    font-size: 5.0rem;
+    color: $purple;
+    margin-bottom: 2.5rem;
+    display: block;
+    position: relative;
+}
+
+.contentbox-style3 {
+    display: inline-block;
+
+    i {
+        font-size: 5.0rem;
+        color: $purple;
+        margin-bottom: 2.5rem;
+        display: block;
+        position: relative;
+
+        &.left {
+            &.ml23,
+            &.mr23 {
+                top: -1.2rem;
+            }
+        }
+    }
+}
+
+.contentbox-content {
+    overflow: hidden;
+    text-align: left;
+
+    a {
+        color: $purple;
+        position: relative;
+        padding-bottom: 2px;
+    }
+}
+
+.contentbox-style1,
+.contentbox-style2,
+.contentbox-style3 {
+    h5 {
+        font-size: 1.8rem;
+        margin: 0;
+        overflow: hidden;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.numbered span {
+    display: block;
+    overflow: hidden;
+
+    &.number {
+        font-size: 2.5rem;
+        color: $purple;
+        font-weight: 700;
+        line-height: 1.3;
+        float: left;
+        margin-right: 1.0rem;
+    }
+}
+
+h5.numbered span.number + span {
+    padding-top: 1px;
+}
+
+/* ===[ Details List ]=== */
+ul.details-list {
+    margin: 2.0rem 0 0 0 !important;
+
+    li {
+        font-size: 1.5rem;
+        text-transform: none;
+        font-weight: 300;
+        margin-bottom: 1.2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        span {
+            font-size: 1.2rem;
+            font-weight: 600;
+            width: 7.0rem;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+
+        a {
+            text-decoration: none;
+            padding-bottom: 2px;
+            position: relative;
+
+            &:before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                bottom: 0;
+                left: 0;
+                background: $black;
+                visibility: hidden;
+                transition: all 0.2s ease-in-out 0s;
+                transform: scaleX(0);
+            }
+
+            &:hover:before {
+                visibility: visible;
+                transform: scaleX(1);
+            }
+        }
+    }
+}
+
+.contentbox-style1,
+.contentbox-style2,
+.contentbox-style3,
+.icon-circle-box {
+    a {
+        text-decoration: none;
+    }
+}
+
+/* ===[ Sticked Boxes ]=== */
+.sticked-boxes {
+    .row {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .columns {
+        padding: 0;
+
+        .bordered {
+            border-right: none;
+            margin-bottom: -1px !important;
+        }
+
+        .contentbox-style1, .contentbox-style2, .contentbox-style3, .contentbox-style4 {
+            height: 100%;
+        }
+
+        &:last-child .bordered {
+            border-right: 1px solid rgba(0, 0, 0, 0.6);
+        }
+    }
+}
+
+/* ===[ Link Box ]=== */
+.link-box {
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+
+    i {
+        font-size: 4.0rem;
+    }
+
+    img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:hover img {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+
+    a {
+        position: relative;
+        text-decoration: none;
+        z-index: 1;
+        display: table;
+        width: 100%;
+        min-height: 26.0rem;
+        padding: 0 3.0rem;
+    }
+
+    img + a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        min-height: 0;
+        display: block;
+    }
+
+    a {
+        + img {
+            transition: opacity 1s, transform 0.5s;
+        }
+
+        &:hover + img {
+            transform: scale3d(1.1, 1.1, 1);
+        }
+    }
+
+    img + a .overlay-caption {
+        z-index: 1;
+        position: relative;
+        top: 50%;
+        display: block;
+        transform: translateY(-50%);
+    }
+
+    a .overlay-caption {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    img + .overlay-caption {
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        width: calc(100% - 60px);
+        transform: translateY(-50%);
+        z-index: 1;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($large) {
+    .columns:last-child {
+        .contentbox-style1,
+        .contentbox-style2,
+        .contentbox-style3,
+        .contentbox-style4,
+        .icon-circle-box {
+            margin-bottom: 0;
+        }
+    }
+
+    .contentbox-style4 .line-drawing path {
+        stroke-width: 1 !important;
+    }
+
+    .line-drawing path {
+        stroke-width: 0.7 !important;
+    }
+
+    svg {
+        width: 40% !important;
+    }
+
+    .sticked-boxes .row {
+        margin-bottom: 0;
+    }
+
+    .contentbox-style1 {
+        h5 {
+            width: 100%;
+        }
+
+        i {
+            margin-bottom: 15px;
+        }
+    }
+
+    .bordered,
+    .boxed {
+        padding: 40px 28px;
+    }
+}
+@include mediaquerie($medium5) {
+    .contentbox-content {
+        width: 100%;
+    }
+}
+@include mediaquerie($medium4) {
+    .dark-bg,
+    .image,
+    .parallax {
+        &.sticked-boxes .columns {
+            .bordered {
+                border-right-color: #e8e8e8;
+            }
+            &:last-child {
+                .bordered {
+                    border-bottom-color: #e8e8e8;
+                }
+            }
+        }
+    }
+    svg {
+        width: 100px !important;
+    }
+}
+@include mediaquerie($small4) {
+.sticked-boxes .columns {
+    .bordered {
+        border-right: 1px solid;
+        border-bottom: none;
+    }
+    &:last-child {
+        .bordered {
+            border-bottom: 1px solid;
+        }
+    }
+}
+}

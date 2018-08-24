@@ -1,0 +1,77 @@
+.progress-bar {
+    position: relative;
+    margin: 0 auto 2.0rem;
+    height: 5.0rem;
+    font-size: 0.8em;
+    color: $black;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &.thick-bar {
+        .bar,
+        .bar-container {
+            height: 1.0rem;
+        }
+    }
+
+    .bar-container {
+        height: 1px;
+        width: 100%;
+        overflow: hidden;
+        background: #efefef;
+    }
+
+    .bar-label {
+        font-family: $poppins;
+        font-size: 1.6rem;
+        color: $black;
+        text-transform: none;
+        text-align: left;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+
+    .bar-percentage {
+        margin: 0 auto;
+        font-size: 1.1rem;
+        position: absolute;
+        top: 0.4rem;
+        right: 0;
+    }
+
+    .bar {
+        float: left;
+        background: $black;
+        height: 1px;
+    }
+}
+
+.dark-bg,
+.image,
+.parallax {
+    .bar-container {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    .bar {
+        background: $white;
+    }
+
+    .bar-label,
+    .progress-bar {
+        color: $white;
+    }
+}
+
+.light-bg {
+    .bar-container {
+        background: #dedede;
+    }
+
+    .bar-label,
+    .progress-bar {
+        color: $black;
+    }
+}

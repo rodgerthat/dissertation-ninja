@@ -1,0 +1,302 @@
+#theme-restaurant {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 400;
+    }
+
+    .circle-effect .icon-circle {
+        color: $wasabi;
+        box-shadow: 0 0 0 0.2rem $wasabi;
+
+        &:after {
+            background: $wasabi;
+        }
+    }
+
+    .dark-bg,
+    .image,
+    .parallax {
+        .button,
+        button {
+            &.white {
+                i {
+                    color: $white;
+                }
+
+                &:hover {
+                    i {
+                        color: $black;
+                    }
+                }
+            }
+        }
+
+        .contentbox-style1.boxed i,
+        .contentbox-style2.boxed i,
+        .contentbox-style3.boxed i {
+            color: $wasabi;
+        }
+
+        .boxed.icon-circle-box i {
+            color: $wasabi;
+        }
+
+        .boxed .icon-circle:after {
+            background: $wasabi !important;
+        }
+
+        .highlighted .pricing-table-list ul li {
+            color: $white;
+        }
+
+        .pricing-table-column.highlighted {
+            background: $wasabi;
+
+            .button {
+                color: $black;
+                border-color: transparent;
+
+                &:focus,
+                &:hover {
+                    color: $black;
+                    border-color: transparent;
+                    background: #d2d2d2;
+                }
+            }
+        }
+    }
+
+    .dark-bg .icon-circle-box i,
+    .icon-circle-box .boxed i {
+        color: $wasabi;
+    }
+
+    .boxed {
+        .line-drawing path {
+            stroke: $wasabi;
+        }
+
+        .icon-circle {
+            box-shadow: 0 0 0 0.2rem $wasabi;
+        }
+    }
+
+    .dark-bg .boxed .icon-circle {
+        box-shadow: 0 0 0 0.2rem $wasabi;
+    }
+
+    .boxed .icon-circle:after {
+        background: $wasabi !important;
+    }
+
+    .image,
+    .parallax {
+        .bordered .icon-circle,
+        .icon-circle {
+            box-shadow: 0 0 0 0.2rem $wasabi;
+
+            i {
+                color: $wasabi;
+            }
+        }
+
+        .boxed .icon-circle {
+            box-shadow: 0 0 0 0.2rem $wasabi;
+        }
+    }
+
+    .contentbox-style1,
+    .contentbox-style2,
+    .contentbox-style3 {
+        i {
+            color: $wasabi;
+        }
+    }
+
+    .contentbox-content a,
+    .numbered span.number {
+        color: $wasabi;
+    }
+
+    ul.details-list li a:before {
+        background: $wasabi;
+    }
+
+    .light-bg i {
+        color: $wasabi;
+    }
+
+    .line-drawing path {
+        stroke: $wasabi;
+    }
+
+    .button,
+    button {
+        color: $wasabi;
+        border: 0.2rem solid $wasabi;
+
+        i {
+            color: $wasabi;
+        }
+
+        &:hover {
+            color: $white;
+            background: $wasabi;
+        }
+
+        &.filled {
+            color: $white;
+            background: $wasabi;
+
+            i {
+                color: $white;
+            }
+
+            &:focus,
+            &:hover {
+                background: #a0a52d;
+                border-color: #a0a52d;
+            }
+
+            &.white i {
+                color: $black !important;
+            }
+        }
+
+        &.play {
+            border-color: $wasabi;
+        }
+
+        &.filled.play:hover {
+            background: $wasabi !important;
+        }
+    }
+
+    #nav {
+        .label {
+            background: $wasabi;
+        }
+
+        li.cart a span {
+            background: $wasabi;
+
+            &.cart-item-desc,
+            &.cart-item-image,
+            &.price {
+                background: none;
+            }
+        }
+
+    }
+
+    .pricing-table-column.highlighted {
+        border-color: $wasabi;
+        background: $wasabi;
+    }
+
+    .highlighted .pricing-table-header span.uppertext {
+        color: $white;
+    }
+
+    .image,
+    .parallax {
+        .highlighted {
+            .pricing-table-header h3,
+            .pricing-table-price h2 {
+                color: $white;
+            }
+        }
+    }
+
+    .dark-bg {
+        .highlighted {
+            .pricing-table-header h3,
+            .pricing-table-list ul li,
+            .pricing-table-price h2 {
+                color: $white;
+            }
+        }
+    }
+
+    .pricing-table-column.highlighted .button:hover {
+        background: #d2d2d2;
+    }
+
+    .team-block-inner .button {
+        color: $wasabi;
+        border-color: $wasabi;
+
+        &.filled {
+            background: $wasabi;
+        }
+
+        &:hover {
+            color: $white;
+            border-color: $wasabi;
+            background: $wasabi !important;
+        }
+
+        &.filled {
+            color: $white;
+            border-color: transparent;
+
+            &:hover {
+                color: $white;
+                border-color: transparent;
+                background: #2424a5 !important;
+            }
+        }
+    }
+
+    .caption p.icon-links a:hover {
+        color: $white;
+        background: $wasabi;
+    }
+
+    .backtotop:hover {
+        background: $wasabi;
+    }
+
+    .form-select:after {
+        color: $wasabi;
+    }
+
+    b:after {
+        background-color: $wasabi;
+    }
+
+    .video-placeholder:hover .button.play {
+        background: $wasabi !important;
+
+        &:hover {
+            background: $wasabi !important;
+        }
+    }
+
+    .overlay-color:before {
+        content: "";
+        background: $wasabi;
+    }
+
+    footer button[type="submit"] {
+        color: $white;
+        background: $wasabi;
+    }
+
+    .tabs-title > a {
+        &:focus,
+        &[aria-selected='true'] {
+            background: $wasabi;
+        }
+    }
+
+    select {
+        background-image: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="14" viewBox="0 0 9 14">
+        <path d="M8.398 5.75q0 0.102-0.078 0.18l-3.641 3.641q-0.078 0.078-0.18 0.078t-0.18-0.078l-3.641-3.641q-0.078-0.078-0.078-0.18t0.078-0.18l0.391-0.391q0.078-0.078 0.18-0.078t0.18 0.078l3.070 3.070 3.070-3.070q0.078-0.078 0.18-0.078t0.18 0.078l0.391 0.391q0.078 0.078 0.078 0.18z" style="fill: %23848825"></path>
+        </svg>');
+    }
+}

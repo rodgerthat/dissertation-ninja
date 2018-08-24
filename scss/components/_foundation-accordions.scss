@@ -1,0 +1,113 @@
+@include foundation-accordion;
+
+.accordion {
+    list-style-type: none;
+    text-transform: none;
+    margin: 0;
+
+    li.accordion-item {
+        margin-bottom: 1px;
+        list-style-type: none;
+
+        &:last-child {
+            border-bottom: none;
+
+            .accordion-title {
+                border-bottom-width: 0;
+
+                &:focus {
+                    color: inherit;
+                }
+            }
+        }
+
+        &.is-active > .accordion-title:before {
+            content: '–';
+            top: 50%;
+        }
+    }
+
+    .accordion-title {
+        font-size: $accordion-title-font-size;
+        color: $black;
+        font-weight: 400;
+        text-decoration: none;
+        display: block;
+        padding: $accordion-item-padding;
+        line-height: 1;
+        text-transform: uppercase;
+        position: relative;
+        background: #f1f1f1;
+
+        &:before {
+            content: '+';
+            position: absolute;
+            right: 2rem;
+            top: 50%;
+            margin-top: -0.7rem;
+        }
+
+        &:focus {
+            color: $black;
+            outline: none;
+        }
+    }
+
+    .accordion-content {
+        font-weight: 300;
+        font-size: 1.5rem;
+        letter-spacing: 0.05em;
+        color: $accordion-content-color;
+        line-height: 1.74;
+        padding: $accordion-content-padding;
+        overflow: hidden;
+        display: none;
+        border: none !important;
+
+        p {
+            text-align: left;
+        }
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    & + .accordion {
+        margin-top: 4.0rem;
+    }
+}
+
+.dark-bg,
+.image,
+.parallax {
+    li.accordion-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+        .accordion-title {
+            color: $white;
+            border: none;
+            background: rgba(247, 247, 247, 0.15);
+
+            &:focus {
+                color: $white;
+            }
+        }
+
+        &:last-child {
+            .accordion-title {
+
+                &:focus {
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    .accordion-content {
+        color: $white;
+    }
+}

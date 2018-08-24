@@ -1,0 +1,39 @@
+
+/* ===[ Overlay Gradient ]=== */
+.tp-dottedoverlay.gradient {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* ===[ Arrows ]=== */
+.metis.tparrows {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.0rem;
+    transition: all 0.3s;
+    width: 6.0rem;
+    height: 6.0rem;
+}
+
+.metis.tparrows:hover {
+    background: $black;
+}
+
+.metis.tparrows:before {
+    color: $white;
+    transition: all 0.3s;
+}
+/* ===[ Captions ]=== */
+.tp-caption.topheading {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.6rem !important;
+    color: $white;
+    font-weight: 800 !important;
+    letter-spacing: 0.06em !important;
+}
+
+.tp-caption.heading {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.tp-caption.lead {
+    font-weight: 300;
+}

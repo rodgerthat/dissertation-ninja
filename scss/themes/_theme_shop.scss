@@ -1,0 +1,292 @@
+#theme-shop {
+    .circle-effect .icon-circle {
+        color: $canon-pink;
+        box-shadow: 0 0 0 0.2rem $canon-pink;
+
+        &:after {
+            background: $canon-pink;
+        }
+    }
+
+    .dark-bg,
+    .image,
+    .parallax {
+        .button,
+        button {
+            &.white {
+                i {
+                    color: $white;
+                }
+
+                &:hover {
+                    i {
+                        color: $black;
+                    }
+                }
+            }
+        }
+
+        .contentbox-style1.boxed i,
+        .contentbox-style2.boxed i,
+        .contentbox-style3.boxed i {
+            color: $canon-pink;
+        }
+
+        .boxed.icon-circle-box i {
+            color: $canon-pink;
+        }
+
+        .boxed .icon-circle:after {
+            background: $canon-pink !important;
+        }
+
+        .highlighted .pricing-table-list ul li {
+            color: $white;
+        }
+
+        .pricing-table-column.highlighted {
+            background: $canon-pink;
+
+            .button {
+                color: $black;
+                border-color: transparent;
+
+                &:focus,
+                &:hover {
+                    color: $black;
+                    border-color: transparent;
+                    background: #d2d2d2;
+                }
+            }
+        }
+    }
+
+    .dark-bg .icon-circle-box i,
+    .icon-circle-box .boxed i {
+        color: $canon-pink;
+    }
+
+    .boxed {
+        .line-drawing path {
+            stroke: $canon-pink;
+        }
+
+        .icon-circle {
+            box-shadow: 0 0 0 0.2rem $canon-pink;
+        }
+    }
+
+    .dark-bg .boxed .icon-circle {
+        box-shadow: 0 0 0 0.2rem $canon-pink;
+    }
+
+    .boxed .icon-circle:after {
+        background: $canon-pink !important;
+    }
+
+    .image,
+    .parallax {
+        .bordered .icon-circle,
+        .icon-circle {
+            box-shadow: 0 0 0 0.2rem $canon-pink;
+
+            i {
+                color: $canon-pink;
+            }
+        }
+
+        .boxed .icon-circle {
+            box-shadow: 0 0 0 0.2rem $canon-pink;
+        }
+    }
+
+    .contentbox-style1,
+    .contentbox-style2,
+    .contentbox-style3 {
+        i {
+            color: $canon-pink;
+        }
+    }
+
+    .contentbox-content a,
+    .numbered span.number {
+        color: $canon-pink;
+    }
+
+    ul.details-list li a:before {
+        background: $canon-pink;
+    }
+
+    .light-bg i {
+        color: $canon-pink;
+    }
+
+    .line-drawing path {
+        stroke: $canon-pink;
+    }
+
+    .button,
+    button {
+        color: $canon-pink;
+        border: 0.2rem solid $canon-pink;
+
+        i {
+            color: $canon-pink;
+        }
+
+        &:hover {
+            color: $white;
+            background: $canon-pink;
+        }
+
+        &.filled {
+            color: $white;
+            background: $canon-pink;
+
+            i {
+                color: $white;
+            }
+
+            &:focus,
+            &:hover {
+                background: #633156;
+                border-color: #633156;
+            }
+
+            &.white i {
+                color: $black !important;
+            }
+        }
+
+        &.play {
+            border-color: $canon-pink;
+        }
+
+        &.filled.play:hover {
+            background: $canon-pink !important;
+        }
+    }
+
+    #nav {
+        .label {
+            background: $canon-pink;
+        }
+
+        li.cart a span {
+            background: $canon-pink;
+
+            &.cart-item-desc,
+            &.cart-item-image,
+            &.price {
+                background: none;
+            }
+        }
+    }
+
+    .pricing-table-column.highlighted {
+        border-color: $canon-pink;
+        background: $canon-pink;
+    }
+
+    .highlighted .pricing-table-header span.uppertext {
+        color: $white;
+    }
+
+    .image,
+    .parallax {
+        .highlighted {
+            .pricing-table-header h3,
+            .pricing-table-price h2 {
+                color: $white;
+            }
+        }
+    }
+
+    .dark-bg {
+        .highlighted {
+            .pricing-table-header h3,
+            .pricing-table-list ul li,
+            .pricing-table-price h2 {
+                color: $white;
+            }
+        }
+    }
+
+    .pricing-table-column.highlighted .button:hover {
+        background: #d2d2d2;
+    }
+
+    .team-block-inner .button {
+        color: $canon-pink;
+        border-color: $canon-pink;
+
+        &.filled {
+            background: $canon-pink;
+        }
+
+        &:hover {
+            color: $white;
+            border-color: $canon-pink;
+            background: $canon-pink !important;
+        }
+
+        &.filled {
+            color: $white;
+            border-color: transparent;
+
+            &:hover {
+                color: $white;
+                border-color: transparent;
+                background: #2424a5 !important;
+            }
+        }
+    }
+
+    .caption p.icon-links a:hover {
+        color: $white;
+        background: $canon-pink;
+    }
+
+    .backtotop:hover {
+        background: $canon-pink;
+    }
+
+    .form-select:after {
+        color: $canon-pink;
+    }
+
+    b:after {
+        background-color: $canon-pink;
+    }
+
+    .video-placeholder:hover .button.play {
+        background: $canon-pink !important;
+
+        &:hover {
+            background: $canon-pink !important;
+        }
+    }
+
+    .overlay-color:before {
+        content: "";
+        background: $canon-pink;
+    }
+
+    footer button[type="submit"] {
+        color: $white;
+        background: $canon-pink;
+    }
+
+    .tabs-title > a {
+        &:focus,
+        &[aria-selected='true'] {
+            background: $canon-pink;
+        }
+    }
+
+    select {
+        background-image: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="14" viewBox="0 0 9 14">
+        <path d="M8.398 5.75q0 0.102-0.078 0.18l-3.641 3.641q-0.078 0.078-0.18 0.078t-0.18-0.078l-3.641-3.641q-0.078-0.078-0.078-0.18t0.078-0.18l0.391-0.391q0.078-0.078 0.18-0.078t0.18 0.078l3.070 3.070 3.070-3.070q0.078-0.078 0.18-0.078t0.18 0.078l0.391 0.391q0.078 0.078 0.078 0.18z" style="fill: %238B4579"></path>
+        </svg>');
+    }
+}

@@ -1,0 +1,127 @@
+.pricing-table-column {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 5.0rem 2.0rem;
+
+    &.highlighted {
+        background: $purple;
+        color: $white;
+    }
+}
+
+.dark-bg,
+.image,
+.parallax {
+    .pricing-table-column {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    &.highlighted {
+        color: $black;
+        background: $white;
+    }
+
+    .pricing-table-header span.uppertext {
+        color: $white;
+    }
+
+    .pricing-table-header h3,
+    .pricing-table-price h2 {
+        color: $black;
+    }
+
+    .pricing-table-list ul li {
+        color: $white;
+    }
+
+    .highlighted .pricing-table-list ul li {
+        color: $black;
+    }
+}
+
+.pricing-table-header {
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+
+    span.uppertext {
+        font-size: 1.6rem;
+        color: #7b7b7b;
+        font-style: italic;
+        text-transform: none;
+        margin-bottom: 2.0rem;
+        display: block;
+    }
+}
+
+.pricing-table-column.highlighted .pricing-table-header span.uppertext {
+    color: $white;
+}
+
+.pricing-table-price {
+    padding: 2.0rem 0;
+
+    h2 {
+        font-size: 6.5rem;
+        font-weight: 600;
+        line-height: 0.8;
+    }
+
+    span {
+        &.currency {
+            font-size: 2.0rem;
+            vertical-align: top;
+        }
+
+        &.date-unit {
+            font-size: 2.0rem;
+            text-transform: none;
+            letter-spacing: 0.1em;
+        }
+    }
+}
+
+.highlighted {
+    .pricing-table-header h3,
+    .pricing-table-price h2 {
+        color: $white;
+    }
+}
+
+.pricing-table-list {
+    padding: 2.0rem 3.0rem 4.0rem;
+
+    ul li {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        text-transform: none;
+        margin-bottom: 1.2rem;
+    }
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($large) {
+    .large-3 {
+        .pricing-table-column {
+            margin-bottom: 30px;
+        }
+
+        &:last-child .pricing-table-column {
+            margin-bottom: 0;
+        }
+    }
+}
+@include mediaquerie($medium4) {
+    .pricing-table-column {
+        margin-bottom: 30px;
+    }
+
+    .medium-4:last-child .pricing-table-column {
+        margin-bottom: 0;
+    }
+
+    ul.price-list .mt50 {
+        margin-top: 0 !important;
+    }
+}

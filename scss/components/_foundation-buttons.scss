@@ -1,0 +1,480 @@
+@include foundation-button;
+
+.button,
+button {
+    font-family: $button-font-family;
+    font-size: 1.3rem;
+    color: $purple;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    padding: $button-padding;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    border: 2px solid $purple;
+    border-radius: 0;
+    background: none;
+    transition: $button-transition;
+
+    &.rounded {
+        border-radius: 5.0rem;
+    }
+
+    &.filled {
+        color: $white;
+        background: $purple;
+
+        &.black {
+            color: $white !important;
+            border-color: $black !important;
+            background: $black !important;
+
+            &:hover {
+                color: $white !important;
+                border-color: #1f1f1f !important;
+                background: #1f1f1f !important;
+            }
+            i, i:hover {
+                color: $white !important;
+            }
+        }
+
+        i {
+            color: $white;
+        }
+
+        &:focus,
+        &:hover {
+            background: #3f1f92;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #3f1f92;
+        }
+        &.white {
+            color: $black !important;
+            border-color: $white !important;
+            background: $white !important;
+
+            i {
+                color: $black;
+            }
+
+            .button.black,
+            button.black {
+                color: $black !important;
+                border-color: $black !important;
+            }
+
+            &:hover {
+                color: $black !important;
+                border-color: #d2d2d2 !important;
+                background: #d2d2d2 !important;
+            }
+        }
+    }
+
+    &.expanded {
+        width: 100%;
+    }
+
+    &:hover,
+    &:focus {
+        color: $white;
+        background: $purple;
+
+        i {
+            color: $white;
+        }
+    }
+
+    &.small {
+        padding-top: 0.7em;
+
+        i {
+            font-size: 14px !important;
+        }
+    }
+
+    &.large {
+        font-size: 15px;
+
+        i {
+            font-size: 20px !important;
+            margin-right: 0.2em;
+        }
+    }
+
+    &.xlarge {
+        padding-top: 0.7em;
+
+        i {
+            font-size: 23px !important;
+            margin-right: 0.1em;
+        }
+    }
+
+    &.fullwidth {
+        width: 100%;
+    }
+
+    & i {
+        font-size: 17px !important;
+        color: $purple;
+        position: relative;
+        margin-right: 0.2em;
+        top: 1px;
+    }
+    &.white {
+        color: $white !important;
+        border-color: $white !important;
+
+        i {
+            color: $white;
+        }
+
+        &:hover,
+        &:focus {
+            color: $black !important;
+            border-color: $white !important;
+            background: $white !important;
+
+            i {
+                color: $black;
+            }
+        }
+    }
+    &.black {
+        color: $black !important;
+        border-color: $black !important;
+
+        i {
+            color: $black !important;
+        }
+        &:focus,
+        &:hover {
+            color: $white !important;
+            border-color: #1f1f1f !important;
+            background: #1f1f1f !important;
+
+            i {
+                color: $white !important;
+            }
+        }
+    }
+    &.dropdown:after {
+        position: relative;
+        top: 0.6em;
+        right: -0.5em;
+        margin-left: 1.0em;
+    }
+}
+
+.dark-bg,
+.image,
+.parallax {
+    .button,
+    button {
+        color: $purple;
+
+        &.filled,
+        &:hover {
+            color: $white;
+        }
+    }
+    .video-button-modal span {
+        color: $white;
+        vertical-align: middle;
+        float: none;
+    }
+    .scrolldown-btn {
+        color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+div + a.button.play {
+    margin-top: 6.0rem;
+}
+
+.call-to-action-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 4.4rem;
+    margin: 0;
+}
+
+p + {
+    .button,
+    buton {
+        margin-top: 4.0rem;
+    }
+}
+
+.button {
+    + .button {
+        margin-left: 2.0rem;
+    }
+
+    &.play {
+        width: 7.5rem;
+        height: 7.5rem;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        padding: 0;
+        z-index: 4;
+        cursor: pointer;
+        border-color: $purple;
+        border-radius: 50%;
+        box-shadow: 0 3rem 4rem -2rem rgba(0, 0, 0, 0.6);
+
+        &:before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 0.5s ease;
+            content: '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0.6rem 0 0.6rem 1.1rem;
+            border-color: transparent transparent transparent $purple;
+        }
+
+        &:hover {
+            transform: scale(1.1) !important;
+
+            &:before {
+                border-color: transparent transparent transparent $white;
+            }
+        }
+    }
+
+    &.filled.play {
+        &:before {
+            border-color: transparent transparent transparent $white;
+        }
+
+        &:hover {
+            border-color: transparent;
+            background: $purple !important;
+        }
+    }
+
+    &.filled.play:hover:before,
+    &.play:hover:before {
+        border-color: transparent transparent transparent $white;
+    }
+    &.small.play {
+        width: 5.0rem;
+        height: 5.0rem;
+    }
+
+    &.play.black {
+        border-color: $black !important;
+
+        &:before {
+            border-color: transparent transparent transparent $black !important;
+        }
+
+        &:hover {
+            background: $black !important;
+
+            &:before {
+                border-color: transparent transparent transparent $white !important;
+            }
+        }
+    }
+
+    &.filled.play.black:hover {
+        border-color: $black !important;
+        background: $black !important;
+    }
+
+    &.play {
+        &.black.filled:before {
+            border-color: transparent transparent transparent $white !important;
+        }
+
+        &.white {
+            border-color: $white !important;
+
+            &:before {
+                border-color: transparent transparent transparent $white !important;
+            }
+
+            &:hover {
+                background: $white !important;
+                border-color: $white !important;
+
+                &:before {
+                    border-color: transparent transparent transparent $black !important;
+                }
+            }
+
+            &.filled {
+                &:hover {
+                    background: $white !important;
+                }
+
+                &:before {
+                    border-color: transparent transparent transparent $black !important;
+                }
+            }
+        }
+    }
+
+    &.filled.play.white.filled:hover {
+        border-color: $white !important;
+        background: $white !important;
+    }
+
+    &.paypal {
+        color: $white;
+        border-color: #0070ba;
+
+        &:focus,
+        &:hover {
+            color: $white;
+            border-color: transparent;
+            background: #0070ba;
+        }
+    }
+
+    &.filled.paypal {
+        background: #0070ba;
+
+        &:focus,
+        &:hover {
+            background: #014e82;
+        }
+    }
+
+    &.google-wallet {
+        color: $white;
+        border-color: #dd4c39;
+
+        &:focus,
+        &:hover {
+            color: $white;
+            border-color: transparent;
+            background: #dd4c39;
+        }
+    }
+
+    &.filled.google-wallet {
+        background: #dd4c39;
+
+        &:focus,
+        &:hover {
+            background: #af3a2b;
+        }
+    }
+
+    &.comment-reply {
+        margin: 2.0rem 0 4.0rem;
+    }
+}
+
+.video-button-modal {
+    margin-top: 4.5rem;
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .button {
+        &.large.play,
+        &.small.play {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        &.large.play {
+            width: 9.5rem;
+            height: 9.5rem;
+        }
+    }
+
+    span {
+        font-size: 1.1rem;
+        color: $purple;
+        display: inline-block;
+        position: relative;
+        margin-left: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    + .button {
+        margin-top: 4.0rem;
+
+        + .button {
+            margin-top: 4.0rem;
+        }
+    }
+}
+
+/* ===[ Scroll Down Button ]=== */
+.scrolldown-btn {
+    font-family: "lineicons";
+    width: 3.8rem;
+    height: 3.8rem;
+    font-weight: 100;
+    line-height: 4.0rem;
+    cursor: pointer;
+    font-size: 4.0rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    position: absolute;
+    bottom: 4.0rem;
+    left: 0;
+    right: 0;
+
+    &:before {
+        content: "\e612";
+    }
+}
+
+.light-bg .scrolldown-btn {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium8) {
+    .payment-options a.button {
+        width: 100%;
+        margin: 0 0 15px !important;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+@include mediaquerie($medium4) {
+    h1, h2, h3, h4, h5, h6 {
+        + .button {
+            margin: 30px 0 0;
+
+            + .button {
+                margin: 30px 20px 0;
+            }
+        }
+    }
+    .payment-options a.button {
+        margin: 0 0 15px !important;
+    }
+
+    .scrolldown-btn {
+        display: none;
+    }
+}

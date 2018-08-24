@@ -1,0 +1,22 @@
+.map {
+    padding: 0 !important;
+}
+
+#map {
+    min-height: 50.0rem;
+    width: 100%;
+    display: block;
+
+    &.map-2 {
+        height: 50.0rem;
+    }
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium) {
+    #map,
+    iframe {
+        height: 300px;
+        min-height: 0;
+    }
+}

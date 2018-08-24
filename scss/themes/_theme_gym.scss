@@ -1,0 +1,296 @@
+#theme-gym {
+    .circle-effect .icon-circle {
+        color: $coral-red;
+        box-shadow: 0 0 0 0.2rem $coral-red;
+
+        &:after {
+            background: $coral-red;
+        }
+    }
+
+    .dark-bg,
+    .image,
+    .parallax {
+        .button,
+        button {
+            &.white {
+                i {
+                    color: $white;
+                }
+
+                &:hover {
+                    i {
+                        color: $black;
+                    }
+                }
+            }
+        }
+
+        .contentbox-style1.boxed i,
+        .contentbox-style2.boxed i,
+        .contentbox-style3.boxed i {
+            color: $coral-red;
+        }
+
+        .boxed.icon-circle-box i {
+            color: $coral-red;
+        }
+
+        .boxed .icon-circle:after {
+            background: $coral-red !important;
+        }
+
+        .highlighted .pricing-table-list ul li {
+            color: $white;
+        }
+
+        .pricing-table-column.highlighted {
+            background: $coral-red;
+
+            .button {
+                color: $black;
+                border-color: transparent;
+
+                &:focus,
+                &:hover {
+                    color: $black;
+                    border-color: transparent;
+                    background: #d2d2d2;
+                }
+            }
+        }
+    }
+
+    .dark-bg .icon-circle-box i,
+    .icon-circle-box .boxed i {
+        color: $coral-red;
+    }
+
+    .boxed {
+        .line-drawing path {
+            stroke: $coral-red;
+        }
+
+        .icon-circle {
+            box-shadow: 0 0 0 0.2rem $coral-red;
+        }
+    }
+
+    .dark-bg .boxed .icon-circle {
+        box-shadow: 0 0 0 0.2rem $coral-red;
+    }
+
+    .boxed .icon-circle:after {
+        background: $coral-red !important;
+    }
+
+    .image,
+    .parallax {
+        .bordered .icon-circle,
+        .icon-circle {
+            box-shadow: 0 0 0 0.2rem $coral-red;
+
+            i {
+                color: $coral-red;
+            }
+        }
+
+        .boxed .icon-circle {
+            box-shadow: 0 0 0 0.2rem $coral-red;
+        }
+    }
+
+    .contentbox-style1,
+    .contentbox-style2,
+    .contentbox-style3 {
+        i {
+            color: $coral-red;
+        }
+    }
+
+    .contentbox-content a,
+    .numbered span.number {
+        color: $coral-red;
+    }
+
+    ul.details-list li a:before {
+        background: $coral-red;
+    }
+
+    .light-bg i {
+        color: $coral-red;
+    }
+
+    .line-drawing path {
+        stroke: $coral-red;
+    }
+
+    .button,
+    button {
+        color: $coral-red;
+        border: 0.2rem solid $coral-red;
+
+        i {
+            color: $coral-red;
+        }
+
+        &:hover {
+            color: $white;
+            background: $coral-red;
+
+            i {
+                color: $white;
+            }
+        }
+
+        &.filled {
+            color: $white;
+            background: $coral-red;
+
+            i {
+                color: $white;
+            }
+
+            &:focus,
+            &:hover {
+                background: #bb3232;
+                border-color: #bb3232;
+            }
+
+            &.white i {
+                color: $black !important;
+            }
+        }
+
+        &.play {
+            border-color: $coral-red;
+        }
+
+        &.filled.play:hover {
+            background: $coral-red !important;
+        }
+    }
+
+    #nav {
+        .label {
+            background: $coral-red;
+        }
+
+        li.cart a span {
+            background: $coral-red;
+
+            &.cart-item-desc,
+            &.cart-item-image,
+            &.price {
+                background: none;
+            }
+        }
+    }
+
+    .pricing-table-column.highlighted {
+        border-color: $coral-red;
+        background: $coral-red;
+    }
+
+    .highlighted .pricing-table-header span.uppertext {
+        color: $white;
+    }
+
+    .image,
+    .parallax {
+        .highlighted {
+            .pricing-table-header h3,
+            .pricing-table-price h2 {
+                color: $white;
+            }
+        }
+    }
+
+    .dark-bg {
+        .highlighted {
+            .pricing-table-header h3,
+            .pricing-table-list ul li,
+            .pricing-table-price h2 {
+                color: $white;
+            }
+        }
+    }
+
+    .pricing-table-column.highlighted .button:hover {
+        background: #d2d2d2;
+    }
+
+    .team-block-inner .button {
+        color: $coral-red;
+        border-color: $coral-red;
+
+        &.filled {
+            background: $coral-red;
+        }
+
+        &:hover {
+            color: $white;
+            border-color: $coral-red;
+            background: $coral-red !important;
+        }
+
+        &.filled {
+            color: $white;
+            border-color: transparent;
+
+            &:hover {
+                color: $white;
+                border-color: transparent;
+                background: #2424a5 !important;
+            }
+        }
+    }
+
+    .caption p.icon-links a:hover {
+        color: $white;
+        background: $coral-red;
+    }
+
+    .backtotop:hover {
+        background: $coral-red;
+    }
+
+    .form-select:after {
+        color: $coral-red;
+    }
+
+    b:after {
+        background-color: $coral-red;
+    }
+
+    .video-placeholder:hover .button.play {
+        background: $coral-red !important;
+
+        &:hover {
+            background: $coral-red !important;
+        }
+    }
+
+    .overlay-color:before {
+        content: "";
+        background: $coral-red;
+    }
+
+    footer button[type="submit"] {
+        color: $white;
+        background: $coral-red;
+    }
+
+    .tabs-title > a {
+        &:focus,
+        &[aria-selected='true'] {
+            background: $coral-red;
+        }
+    }
+
+    select {
+        background-image: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="14" viewBox="0 0 9 14">
+        <path d="M8.398 5.75q0 0.102-0.078 0.18l-3.641 3.641q-0.078 0.078-0.18 0.078t-0.18-0.078l-3.641-3.641q-0.078-0.078-0.078-0.18t0.078-0.18l0.391-0.391q0.078-0.078 0.18-0.078t0.18 0.078l3.070 3.070 3.070-3.070q0.078-0.078 0.18-0.078t0.18 0.078l0.391 0.391q0.078 0.078 0.078 0.18z" style="fill: %23fd4343"></path>
+        </svg>');
+    }
+}

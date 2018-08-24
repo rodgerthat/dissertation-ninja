@@ -1,0 +1,161 @@
+@include foundation-global-styles;
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: $body-font-family;
+    font-weight: $global-weight-normal;
+    line-height: $global-lineheight;
+    color: $body-font-color;
+    margin: 0;
+    padding: 0;
+    background: $body-background;
+    position: relative;
+    font-weight: normal;
+    font-style: normal;
+    background: $white;
+    line-height: 1;
+    display: inline;
+    width: 100%;
+    letter-spacing: 0.02em;
+}
+
+.clear {
+    display: block;
+    position: relative;
+    margin-bottom: 3.0rem;
+    clear: both;
+}
+
+img {
+    display: inline-block;
+}
+
+/* ===[ Containers ]=== */
+.main-container,
+.inner-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-container {
+    display: table;
+    table-layout: fixed;
+}
+
+.inner-container {
+    display: table-row;
+}
+
+/* ===[ Backgrounds ]=== */
+.dark-bg {
+    background: $black !important;
+}
+
+.light-bg {
+    background: $light-gray2 !important;
+}
+
+.transparent-bg {
+    background: rgba(21, 21, 21, 0);
+}
+
+.parallax {
+    position: relative;
+    z-index: 0;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.parallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.image {
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+/* ===[ Back to top ]=== */
+.backtotop {
+    display: inline-block;
+    height: 4.0rem;
+    width: 4.0rem;
+    line-height: normal;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    text-decoration: none;
+    overflow: hidden;
+    background: rgba(39, 39, 39, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 99;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+
+    &:after {
+        content: "\f106";
+        font-family: FontAwesome;
+        font-size: 1.4rem;
+        color: $white;
+        text-align: center;
+        text-decoration: inherit;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    &.fade-out {
+        opacity: 0.5;
+    }
+
+    &:hover {
+        opacity: 1;
+        background: $purple;
+    }
+
+    &.fade-out,
+    &.is-visible {
+        transition: opacity 0.3s 0s, visibility 0s 0s;
+    }
+}
+
+.no-touch .backtotop:hover {
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.backtotop.is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ===[ Preloader ]=== */
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: url("../assets/images/puff.svg") $black no-repeat center center;
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($large) {
+    .backtotop {
+        display: none !important;
+    }
+}

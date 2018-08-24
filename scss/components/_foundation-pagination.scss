@@ -1,0 +1,196 @@
+@include foundation-pagination
+
+.pagination {
+    padding: 0;
+    margin-bottom: 0;
+    position: relative;
+    min-height: 0;
+    background: $white;
+    border-top: 1px solid #efefef;
+}
+
+.pagination-inner {
+    margin: 0 !important;
+    padding: 4.0rem 0;
+    text-align: center;
+
+    li {
+        font-size: inherit;
+        display: inline-block;
+
+        &:first-child,
+        &:last-child {
+            float: left;
+            background: #efefef;
+            border-radius: 5.0rem;
+        }
+
+        &:first-child a {
+            color: $black;
+            line-height: 3.5;
+        }
+
+        &:last-child {
+            a {
+                color: $black;
+                line-height: 3.5;
+            }
+            float: right !important;
+        }
+
+        &:first-child a:hover,
+        &:last-child a:hover {
+            color: $black;
+            background: #d8d8d8;
+        }
+
+        a {
+            display: inline-block;
+            width: 3.5rem;
+            height: 3.5rem;
+            text-align: center;
+            text-decoration: none;
+            color: #343434;
+            font-size: 1.0rem;
+            line-height: 3.4;
+            font-weight: 600;
+            border-radius: 5.0rem;
+            transition: 0.2s linear;
+
+            &:hover {
+                background: #efefef;
+                color: #232323;
+            }
+
+            i {
+                font-size: 1.1rem;
+                color: $black;
+            }
+        }
+
+        &.active a {
+            background: #efefef;
+            color: #232323;
+        }
+
+        &.back a {
+            font-size: 1.1rem;
+            width: auto;
+            height: auto;
+            border: none;
+            text-transform: uppercase;
+
+            &:hover {
+                background: none;
+            }
+        }
+    }
+}
+
+.single-pagination {
+    padding: 0 !important;
+    min-height: 0;
+
+    h4 {
+        color: $white;
+    }
+
+    ul {
+        margin: 0;
+        display: table;
+        width: 100%;
+
+        li {
+            height: 20.0rem;
+            overflow: hidden;
+            display: table-cell;
+
+            + li {
+                width: 50%;
+            }
+
+            a {
+                font-family: $poppins;
+                font-size: $pagination-font-size;
+                color: $white;
+                font-weight: 700;
+                text-decoration: none;
+                display: block;
+                height: 100%;
+                position: relative;
+                background-position: center center;
+                background-size: 100%;
+                transition: background-size 0.5s ease;
+                -moz-transition: background-size 0.5s ease;
+                -ms-transition: background-size 0.5s ease;
+                -o-transition: background-size 0.5s ease;
+                -webkit-transition: background-size 0.5s ease;
+            }
+
+            &:last-child a {
+                text-align: right;
+            }
+
+            a {
+                &:hover {
+                    background-size: 105%;
+                }
+
+                &:before {
+                    content: "";
+                    background: rgba(0, 0, 0, 0.3);
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            &:last-child a:before {
+                content: "";
+                background: rgba(0, 0, 0, 0.3);
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                right: 0;
+            }
+
+            a:hover:before {
+                background: rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+
+    span.pagination-caption {
+        margin: 0 4.0rem;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    ul li a span {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
+
+section + .single-pagination {
+    margin-top: 10.0rem;
+}
+
+section .light-bg + .row .columns .pagination-inner {
+    border: none;
+}
+
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium4) {
+    section + .single-pagination {
+        margin-top: 50px;
+    }
+    .single-pagination ul li {
+        display: block;
+        width: 100% !important;
+    }
+}

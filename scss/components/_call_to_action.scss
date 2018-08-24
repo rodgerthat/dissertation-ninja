@@ -1,0 +1,58 @@
+.cta-stripe {
+    padding-top: 3.0rem !important;
+    padding-bottom: 3.0rem !important;
+    min-height: 0;
+
+    h5,
+    p {
+        margin: 0;
+    }
+
+    h5 {
+        font-size: 2.0rem;
+    }
+
+    .button {
+        margin: 0;
+    }
+
+    .medium-4.columns.v-middle {
+        width: 40.0rem;
+
+        &:last-child {
+            float: right;
+        }
+    }
+}
+
+.call-to-action-form .cta-stripe {
+    height: 0 !important;
+    padding: 4.0rem 0 !important;
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium) {
+    form .medium-3.form-group {
+        margin-top: 3.0rem;
+        text-align: center;
+    }
+}
+@include mediaquerie($medium4) {
+    .cta-stripe {
+        text-align: center;
+
+        .text-right {
+            text-align: center !important;
+        }
+
+        .button {
+            margin-top: 30px;
+        }
+    }
+
+    form.call-to-action-form {
+        .button, button {
+            width: auto !important;
+        }
+    }
+}

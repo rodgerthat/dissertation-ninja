@@ -1,0 +1,332 @@
+.filter {
+    text-align: center;
+    margin-bottom: 9.0rem;
+
+    li {
+        padding: 0 1.5rem;
+        margin: 0;
+        display: inline-block;
+
+        a {
+            display: block;
+            position: relative;
+            font-size: 1.1rem;
+            letter-spacing: 0.2em;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $black;
+            line-height: 1.7;
+            padding-bottom: 2px;
+
+            &.active:before {
+                visibility: visible;
+                transform: scaleX(1);
+            }
+        }
+    }
+}
+
+.align-center .filter li {
+    padding: 0 1.0rem 1.0rem;
+}
+
+/* ===[ Portfolio Grid ]=== */
+.grid {
+    clear: both;
+
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    &.fullwidth.spaced {
+        margin: 0 15px;
+    }
+
+    &.boxed {
+        padding: 0;
+        border: none;
+        width: calc(100% - 3.0rem);
+        margin: auto;
+        background: none !important;
+
+        &.spaced {
+            width: calc(100% - 0rem);
+        }
+    }
+
+    &.spaced {
+        width: calc(100% - 2.5rem);
+        margin: auto;
+
+        .grid-item {
+            margin-bottom: 3.0rem;
+        }
+    }
+
+    &.two-columns.metro .wide {
+        width: 100% !important;
+    }
+
+    &.three-columns.metro .wide {
+        width: 66.67% !important;
+    }
+
+    &.four-columns.metro .wide {
+        width: 50% !important;
+    }
+}
+
+.grid-sizer {
+    width: 50%;
+}
+
+.spaced .grid-item {
+    padding: 0 1.5rem;
+}
+
+.two-columns {
+    .grid-item {
+        width: 50%;
+        width: 50%;
+    }
+
+    .grid-sizer {
+        width: 50%;
+    }
+}
+
+.three-columns {
+    .grid-item,
+    .grid-sizer {
+        width: 33.33%;
+    }
+}
+
+.four-columns {
+    .grid-item,
+    .grid-sizer {
+        width: 25%;
+    }
+}
+
+.grid-item {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.portfolio-item-effect {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background: $black;
+    text-align: center;
+    cursor: pointer;
+
+    a {
+        position: relative;
+        z-index: 1;
+    }
+
+    img {
+        position: relative;
+        display: block;
+        opacity: 0.8;
+        width: 100%;
+    }
+
+    .portfolio-item-caption {
+        padding: 1.5rem 0;
+        color: $white;
+        text-transform: uppercase;
+        font-size: 1.25em;
+        backface-visibility: hidden;
+
+        &::after,
+        &::before {
+            pointer-events: none;
+        }
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    h4 {
+        color: $white;
+        display: block;
+    }
+
+    h6 {
+        text-transform: none;
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 400;
+        margin-bottom: 0.4rem;
+    }
+
+    img {
+        opacity: 1;
+        transition: opacity 1s, transform 0.5s;
+    }
+
+    &:hover img {
+        opacity: 0.4;
+        transform: scale3d(1.1, 1.1, 1);
+    }
+
+    .portfolio-item-caption .portfolio-item-caption-inner {
+        height: 100%;
+        width: 100%;
+        display: table;
+        opacity: 0;
+        transition: opacity 0.35s, transform 0.35s;
+
+        .portfolio-item-caption-inner-inner {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+
+    &:hover {
+        .portfolio-item-caption-inner {
+            opacity: 1;
+        }
+
+        .portfolio-item-caption {
+            &::after,
+            &::before {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    }
+
+    .portfolio-item-caption span.line2 {
+        background: $white;
+        display: block;
+        height: 1px;
+        margin: 4.2rem auto 0;
+        position: relative;
+        width: 2.4rem;
+        opacity: 0.6;
+        transform: translate3d(0, -2rem, 0);
+    }
+}
+
+/* ===[ Isotope ]=== */
+.isotope {
+    transition-duration: 0.8s;
+
+    .isotope-item {
+        transition-duration: 0.8s;
+        transition-property: transform, opacity;
+
+        &.no-transition {
+            transition-duration: 0s;
+        }
+    }
+    transition-property: height, width;
+
+    &.no-transition {
+        transition-duration: 0s;
+
+        .isotope-item {
+            transition-duration: 0s;
+        }
+    }
+
+    &.infinite-scrolling {
+        transition: none;
+    }
+}
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.portfolio-item-title {
+    padding: 2.0rem 0 1.5rem;
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($large) {
+    .filter {
+        margin: 0 0 50px;
+    }
+}
+@include mediaquerie($medium8) {
+    .grid-item {
+        width: 50% !important;
+    }
+
+    .portfolio-slider.medium-height {
+        height: auto !important;
+    }
+
+    .three-columns .grid-item {
+        width: 100% !important;
+    }
+
+    .grid.spaced .grid-item:last-child {
+        margin-bottom: 0;
+    }
+}
+@include mediaquerie($medium4) {
+    .grid-item {
+        width: 100% !important;
+    }
+
+    .spaced {
+        .grid-item {
+            padding-bottom: 0;
+            margin-bottom: 15px !important;
+        }
+
+        &.boxed .grid-item {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .grid {
+        &.spaced {
+            width: calc(100% - 0px);
+            margin: auto !important;
+        }
+        &.boxed.spaced {
+            width: calc(100% - 30px);
+        }
+        &.four-columns.metro .wide {
+            width: 100% !important;
+        }
+    }
+
+    .filter li a {
+        line-height: 3;
+        padding-bottom: 0;
+    }
+
+    .portfolio-slider {
+        &.medium-height {
+            height: auto !important;
+        }
+
+        .owl-item div {
+            margin-bottom: 80px;
+        }
+
+        .owl-dot span {
+            border-color: $black !important;
+            background: $black !important;
+        }
+    }
+}

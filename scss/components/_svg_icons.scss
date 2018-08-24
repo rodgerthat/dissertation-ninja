@@ -1,0 +1,99 @@
+.main {
+    overflow: hidden;
+
+    h5 {
+        font-size: 2.0rem;
+        color: $black;
+        margin-top: 1.0rem !important;
+    }
+}
+
+svg {
+    width: 30%;
+    height: 100%;
+    pointer-events: none;
+
+    .drawings {
+        text-align: center;
+        position: relative;
+        max-height: 60.0rem;
+    }
+}
+
+.line-drawing {
+    margin: 0 auto;
+
+    path {
+        fill: none;
+        stroke: $purple;
+        stroke-width: 0.6;
+    }
+}
+
+.contentbox-style4 {
+    svg {
+        width: 30% !important;
+        height: 100% !important;
+        pointer-events: none !important;
+    }
+
+    .line-drawing {
+        path {
+            stroke-width: 1.2;
+        }
+
+        &.text-white path {
+            stroke: $white;
+        }
+
+        &.text-black path {
+            stroke: $black;
+        }
+    }
+}
+
+.dark-bg,
+.image,
+.parallax {
+    .main h5 {
+        color: $white;
+    }
+
+    .boxed .main {
+        h5,
+        p {
+            color: $black;
+        }
+    }
+}
+
+path {
+    &.line-round {
+        stroke-linecap: round;
+    }
+
+    &.stroke-medium {
+        stroke-width: 2;
+    }
+
+    &.stroke-thin {
+        stroke-width: 1;
+    }
+}
+
+.demo-drawings {
+    background: #F17370;
+    color: $white;
+
+    a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7);
+        outline: none;
+
+        &:focus,
+        &:hover {
+            color: $white;
+            outline: none;
+        }
+    }
+}

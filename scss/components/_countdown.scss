@@ -1,0 +1,90 @@
+.countdown-block {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    border: none !important;
+
+    span.time {
+        font-family: $poppins;
+        font-size: 7.8rem;
+        font-weight: 600;
+        display: inline-block;
+        padding-right: 3.5rem;
+        margin-right: 3.5rem;
+        position: relative;
+
+        &:after {
+            content: "";
+            height: 2.0rem;
+            width: 1px;
+            position: absolute;
+            border-right: 1px solid rgba(0, 0, 0, 0.25);
+            display: block;
+            right: 0;
+            top: 50%;
+            bottom: 0;
+            margin-top: -1.0rem;
+        }
+
+        &:last-child {
+            padding-right: 0;
+            margin-right: 0;
+            border-right: none;
+        }
+
+        span {
+            display: block;
+            font-size: 1.0rem;
+            margin-top: 1.0rem;
+        }
+
+        &:last-child:after {
+            display: none;
+        }
+    }
+
+    .countdown {
+        color: $black;
+        letter-spacing: 0.08em;
+        font-weight: 300;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.dark-bg,
+.image,
+.parallax {
+    .countdown,
+    .countdown-block #contactForm p {
+        color: $white;
+    }
+
+    .countdown-block {
+        border: 1px solid $white;
+
+        span.time:after {
+            border-right: 1px solid rgba(255, 255, 255, 0.25);
+        }
+    }
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium8) {
+    .countdown-block span.time {
+        font-size: 65px;
+        padding-right: 20px;
+        margin-right: 20px;
+    }
+}
+@include mediaquerie($small3) {
+    .countdown-block span.time {
+        font-size: 40px;
+    }
+}
+@include mediaquerie($small) {
+    .countdown-block span.time {
+        font-size: 25px;
+        margin-right: 15px;
+    }
+}

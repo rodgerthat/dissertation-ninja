@@ -1,0 +1,70 @@
+ul.breadcrumbs {
+    float: right;
+    margin-bottom: 0;
+    text-transform: uppercase;
+
+    li,
+    li a {
+        font-size: 1.2rem;
+        color: $black;
+        font-weight: 400;
+        display: inline-block;
+        text-decoration: none;
+        padding-bottom: 0;
+        transition: color 0.35s ease-out;
+        position: relative;
+    }
+
+    > li {
+        &:after {
+            content: $breadcrumbs-item-separator-item;
+            padding: 0 1.0rem 0 1.3rem;
+        }
+
+        &:last-child:after {
+            content: "";
+            padding: 0;
+        }
+    }
+}
+
+.text-center ul.breadcrumbs {
+    float: none;
+}
+
+.dark-bg,
+.image,
+.parallax {
+    ul.breadcrumbs a,
+    ul.breadcrumbs li {
+        color: $white;
+    }
+
+    ul.breadcrumbs li a:before {
+        background: $white;
+    }
+}
+
+.subheader {
+    + ul.breadcrumbs {
+        margin-top: 3.0rem;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    + ul.breadcrumbs {
+        margin-top: 20px;
+    }
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium4) {
+    ul.breadcrumbs {
+        float: none;
+    }
+}

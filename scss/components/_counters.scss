@@ -1,0 +1,95 @@
+.counter-box {
+    text-align: center;
+    padding-top: 2px;
+
+    i {
+        font-size: 4.5rem;
+        margin-bottom: 3.0rem;
+        display: block;
+    }
+
+    h2 {
+        color: $black;
+        font-weight: 700;
+        line-height: 1.1;
+        position: relative;
+    }
+
+    &.large h2 {
+        font-size: 8.0rem;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    p {
+        margin: 1.0rem 0 1.5rem;
+    }
+
+    ul {
+        margin: 0 !important;
+        
+        li {
+            span {
+                font-size: 3.75rem;
+                font-weight: 700;
+            }
+
+            &:last-child {
+                color: rgba(255, 255, 255, 0.7);
+                letter-spacing: 0.05em;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+section.overlap {
+    &.p0 .counter-box {
+        margin-top: 0;
+    }
+}
+
+.dark-bg,
+.image,
+.parallax {
+    .counter-box {
+        h2 {
+            color: $white;
+        }
+
+        h5 {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        ul li {
+            color: $white;
+        }
+    }
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium4) {
+    .counter-box.large {
+        text-align: left;
+        margin-bottom: 30px;
+
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    .large-8.large-centered .large-6.v-middle,
+    .medium-6.v-middle {
+        display: block;
+    }
+
+    .main.contained .drawings {
+        text-align: left;
+    }
+}

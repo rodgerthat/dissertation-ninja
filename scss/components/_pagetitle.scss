@@ -1,0 +1,34 @@
+.pagetitle {
+    .row {
+        display: table;
+        width: 100%;
+    }
+
+    .medium-6.columns {
+        display: table-cell;
+        vertical-align: middle;
+        float: none !important;
+    }
+
+    .large-12.columns + .large-12.columns {
+        margin-top: 2.0rem;
+    }
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium5) {
+    .pagetitle {
+        .medium-6.columns {
+            display: block;
+            width: 100%;
+
+            ul.breadcrumbs {
+                float: none;
+            }
+        }
+
+        .breadcrumbs {
+            margin-top: 20px;
+        }
+    }
+}

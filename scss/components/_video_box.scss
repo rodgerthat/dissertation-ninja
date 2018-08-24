@@ -1,0 +1,88 @@
+.video-placeholder {
+    position: relative;
+    overflow: hidden;
+    width: 75%;
+    margin: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 9.5rem 0 rgba(0, 0, 0, 0.35);
+
+    a {
+        position: initial;
+    }
+
+    .button.play {
+        top: 0;
+        bottom: 0;
+
+        &:before {
+            left: 51%;
+        }
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        transition: all 0.3s;
+    }
+
+    &:hover img {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+
+    &.video-box span.button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        border: none !important;
+    }
+
+    &:hover .button.play {
+        background: #3f1f92;
+        border: none;
+        transform: scale(1.1);
+
+        &:before {
+            top: 49%;
+            left: 51%;
+            border-color: transparent transparent transparent $white;
+        }
+
+        &.black:before {
+            border-color: transparent transparent transparent $white !important;
+        }
+
+        &:hover {
+            background: #3f1f92 !important;
+        }
+
+        &.black {
+            background: $black !important;
+        }
+
+        &.white {
+            background: $white;
+
+            &:hover {
+                border: 2px solid $white !important;
+                background: $white !important;
+            }
+        }
+    }
+}
+
+.large-12 .video-placeholder.video-box.reveal-from-bottom {
+    width: 40%;
+}
+
+h5.topheading.reveal-from-bottom + span span.button.play {
+    position: relative;
+}
+
+/* ===[ Media Queries ]=== */
+@include mediaquerie($medium10) {
+    .video-placeholder {
+        width: 100% !important;
+    }
+}
