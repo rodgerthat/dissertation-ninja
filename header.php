@@ -13,7 +13,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="keywords" content="dissertation, dissertation writing, doctorate, doctorate degree, writing, post-graduate">
-	<title>Home</title>
+	<title><?php the_title(); ?></title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/css/app.css" />

@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="929d5397-3c41-481e-91d6-5d931a1c63ca" name="Default Changelist" comment="" />
+    <list default="true" id="929d5397-3c41-481e-91d6-5d931a1c63ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/page-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lightcase.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lightcase.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lightcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lightcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lightcase.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lightcase.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lightcase.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lightcase.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/Read Me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/Read Me.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/demo-files/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/demo-files/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/demo-files/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/demo-files/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/files/fonts/lineicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/files/fonts/lineicons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/files/fonts/lineicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/files/fonts/lineicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/files/fonts/lineicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/files/fonts/lineicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/files/fonts/lineicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/files/fonts/lineicons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/files/lineicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/files/lineicons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lineicons/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lineicons/selection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jarallax-video.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jarallax-video.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jarallax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jarallax.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.countimator.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.countimator.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scrollreveal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scrollreveal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/css/settings.css" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/css/settings.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.actions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.actions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.kenburn.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.kenburn.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.layeranimation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.migration.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.migration.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.navigation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.navigation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.parallax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.parallax.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.slideanims.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.slideanims.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.video.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/revolution.extension.video.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.kenburn.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.kenburn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.layeranimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.layeranimation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.migration.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.migration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.parallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.parallax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.slideanims.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.slideanims.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.video.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/extensions/source/revolution.extension.video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/jquery.themepunch.enablelog.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/jquery.themepunch.revolution.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/jquery.themepunch.tools.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/source/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/source/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/source/jquery.themepunch.enablelog.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/source/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/source/jquery.themepunch.revolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/source/jquery.themepunch.revolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/source/jquery.themepunch.tools.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/source/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/source/tp-color-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/source/tp-color-picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revolution/js/tp-color-picker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/revolution/js/tp-color-picker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/foundation/node_modules/foundation-sites/docslink.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scss/foundation/node_modules/foundation-sites/docslink.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/foundation/node_modules/foundation-sites/scss/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/foundation/node_modules/foundation-sites/scss/components/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg_icons/brain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg_icons/brain.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg_icons/error.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg_icons/error.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg_icons/warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg_icons/warning.svg" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,53 +111,84 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-809268332">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="465" />
+          <entry key="php" value="4378" />
+          <entry key="scss" value="251" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="465" />
+          <entry key="PHP" value="4378" />
+          <entry key="SCSS" value="251" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="php" value="1" />
+          <entry key="scss" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="PHP" value="1" />
+          <entry key="SCSS" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/style.css">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="221">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/functions.php">
+        <entry file="file://$PROJECT_DIR$/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="833">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/header.php">
+        <entry file="file://$PROJECT_DIR$/scss/components/_login_box.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/footer.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#1873#1879#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1181">
-              <caret line="319" column="17" selection-start-line="319" selection-start-column="17" selection-end-line="319" selection-end-column="17" />
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
               </folding>
@@ -98,42 +197,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/index.html">
+        <entry file="file://$PROJECT_DIR$/page-videos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="336" column="31" selection-start-line="336" selection-start-column="31" selection-end-line="336" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/page-videos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="550" selection-start-line="550" selection-end-line="550" />
-              <folding>
-                <element signature="e#2478#2484#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#span#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#span#1;n#li#0;n#ul#0;n#ul#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#span#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/dn-videos.html">
+        <entry file="file://$PROJECT_DIR$/dn-videos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="646">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dissertation-ninja/dn-login.html">
+        <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126" />
+            <state relative-caret-position="544">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#6#85#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dn-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -146,19 +253,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/../dissertation-ninja/style.css" />
-        <option value="$PROJECT_DIR$/../dissertation-ninja/footer.php" />
-        <option value="$PROJECT_DIR$/../dissertation-ninja/index.php" />
-        <option value="$PROJECT_DIR$/../dissertation-ninja/header.php" />
-        <option value="$PROJECT_DIR$/../dissertation-ninja/page-videos.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/page-videos.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/scss/app.scss" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/page-login.php" />
+        <option value="$PROJECT_DIR$/scss/custom.scss" />
       </list>
     </option>
   </component>
@@ -169,15 +282,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/../dissertation-ninja/scss/foundation/node_modules" />
+    <handled-path value="$PROJECT_DIR$/scss/foundation/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/../dissertation-ninja/scss/foundation/node_modules/foundation-sites/package.json" />
-      <path value="$PROJECT_DIR$/../dissertation-ninja/scss/foundation/node_modules/jquery/package.json" />
-      <path value="$PROJECT_DIR$/../dissertation-ninja/scss/foundation/node_modules/motion-ui/package.json" />
-      <path value="$PROJECT_DIR$/../dissertation-ninja/scss/foundation/node_modules/what-input/package.json" />
-      <path value="$PROJECT_DIR$/../dissertation-ninja/scss/foundation/package.json" />
+      <path value="$PROJECT_DIR$/scss/foundation/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -194,18 +303,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="dissertation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dissertation-ninja" type="b2602c69:ProjectViewProjectNode" />
               <item name="dissertation-ninja" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dissertation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dissertation-ninja" type="b2602c69:ProjectViewProjectNode" />
               <item name="dissertation-ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dissertation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dissertation-ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,9 +320,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,24 +349,20 @@
       <option name="presentableId" value="Default" />
       <updated>1535135521651</updated>
       <workItem from="1535135525554" duration="6591000" />
+      <workItem from="1535144119706" duration="106000" />
+      <workItem from="1535144271946" duration="6245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6591000" />
+    <option name="totallyTimeSpent" value="12942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14360902" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14731051" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.44126505" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298193" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -268,11 +370,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.44126505" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,82 +389,102 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/sidebar.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/dn-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="336" column="31" selection-start-line="336" selection-start-column="31" selection-end-line="336" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/css/app.css">
+    <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/style.css">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="170">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/footer.php">
+    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#1873#1879#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/index.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1181">
-          <caret line="319" column="17" selection-start-line="319" selection-start-column="17" selection-end-line="319" selection-end-column="17" />
+        <state relative-caret-position="5712">
+          <caret line="336" column="31" selection-start-line="336" selection-start-column="31" selection-end-line="336" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/header.php">
+    <entry file="file://$PROJECT_DIR$/page-videos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/dn-videos.html">
+    <entry file="file://$PROJECT_DIR$/dn-videos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="646">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dissertation-ninja/page-videos.php">
+    <entry file="file://$PROJECT_DIR$/dn-login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="550" selection-start-line="550" selection-end-line="550" />
+        <state relative-caret-position="459">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_login_box.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
-            <element signature="e#2478#2484#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#span#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#span#1;n#li#0;n#ul#0;n#ul#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#span#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#6#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
